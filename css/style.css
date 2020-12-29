@@ -1,0 +1,97 @@
+@font-face {
+ font-family: neoSansNormal;
+ src: url(../fonts/NeoSansArabic.ttf);
+ font-weight: normal;
+}
+
+@font-face {
+   font-family: neoSansBold;
+   src: url(../fonts/NeoSansArabicBold.ttf);
+   font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{}
+#banner-one{
+}
+.week, .date, .month{
+    display: block;
+}
+.week{
+  font-family: neoSansNormal;
+  font-size: 35px;
+  color: #790729;
+  text-transform: uppercase;
+
+}
+.date{
+  font-family: neoSansBold;
+  font-size: 118px;
+  font-weight: ;
+  color: #F1AB00;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.month{
+  font-family: neoSansNormal;
+  font-size: 31px;
+  color: #AEAEB2;
+  text-transform: uppercase;
+}
+.bar{
+  border-bottom: 4px solid #DDDBDB;
+  width: 150px;
+  margin: 5px auto;
+}
+.bgBanner{
+  background: url(../img/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4% 0;
+}
+.bgShadow{
+  background: #13100C;
+  opacity: 75%;
+}
+.gift{
+  overflow: hidden;
+}
+.giftIcon{
+  width: 100%;
+}
+.giftText{
+  text-align: center; 
+}
+.giftText h6{
+  color: #F1AB00;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.giftText a{
+  font-size: 15px;
+  color: #F1AB00;
+  border: 1px solid #F1AB00;
+  padding-bottom: 10px 30px;
+  border-radius: 0;
+}
+.common-img{
+  width: 65px;
+  margin-bottom: 15px;
+}
+.common-text{
+  font-family: neoSansNormal;
+    font-size: 15px;
+    color: #ffffff;
+    border-right: 1px solid #707070;
+}
+.common-text:nth-child(3){
+  border-right: 0;
+}
+.border-custom{
+    border-right: 1px solid #707070;
+}
